@@ -27,9 +27,9 @@ resources:
   - name: quickstart-py
     properties:
       ### (OPTIONAL) The docker container you like to deploy for the demo application.
-      appContainerName: cactuslizard/cactuslizard-app:latest
+      appContainerName: f5devcentral/f5-demo-app:latest
       ### (OPTIONAL) Application label.
-      application: cactuslizard-app
+      application: f5app
       ### (OPTIONAL) The image name to deploy. If you would like to view all available images, run the following command from the **gcloud** command line: ```gcloud compute images list --project f5-7626-networks-public --filter="name~f5"```
       bigIpImageName: f5-bigip-16-1-2-2-0-0-28-byol-all-modules-1boot-loc-0505073727
       ### (OPTIONAL) Instance type assigned to BIG-IP, for example 'n1-standard-4'.
